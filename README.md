@@ -35,3 +35,9 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
+
+大家好，我在学习HTML form表格的时候发现，可以制作一个form实现网站搜索而不用打开这个网站。<form action= http://cn.bing.com/search >  <input name=q>就实现了搜索bing！；
+我做了好几个搜索框；
+但我想做一个简单的HTML：一个搜索框 有多个搜索按钮 每个按钮都能利用框内容搜索，每个网站的input name都不同；
+
