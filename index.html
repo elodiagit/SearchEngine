@@ -5,7 +5,7 @@
   <script src="https://cdn.static.runoob.com/libs/foundation/5.5.3/js/foundation.min.js"></script>
   <script src="https://cdn.static.runoob.com/libs/foundation/5.5.3/js/vendor/modernizr.js"></script>
 
-<!-- seach units -->
+<!-- seach unite -->
 			<div style="margin: 150px;">
 
 <form name="se" action=" " target="_blank" >
@@ -14,17 +14,17 @@
     		<div class="large-12 columns">
       		<div class="row collapse">
         	<div class="small-10 columns">
-<input id="here" value="" type=search placeholder="search"   name="keword" > </div>
+<input type=search placeholder="search"   name=q> </div>
 
          	 <div class="small-2 columns">
-<input class="button postfix" value="Seach Units" type="submit" data-options="is_hover:true" data-dropdown="id01">
+<input class="button postfix" value="Seach Unite" type="submit" data-options="is_hover:true" data-dropdown="id01">
 
           <ul id="id01" data-dropdown-content class="f-dropdown">
     		<li><a> <input class="button warning" value="bing"      onclick="se.action='http://cn.bing.com/search';se.submit()"></li>
 
-   			<li><a> <input class="button " value="bilibili"   name=keyword  onclick="se.action='http://search.bilibili.com/all?keyword';se.submit()"></li>
+   			<li><a> <input class="button alert " value="bilibili"   onclick="se.action='http://search.bilibili.com/all?keyword';se.submit()"></li>
 
-   			<li><a> <input class="button " value="acfun" 	name=query     onclick=""></li>
+   			<li><a> <input class="button " value="acfun"    		onclick="se.action='http://www.acfun.cn/search/';se.submit()"></li>
  			
 </form>
 <!-- 初始化 Foundation JS -->
@@ -36,14 +36,22 @@ $(document).ready(function() {
 
 <!-- 3 box seach with good work-->
 <div style="margin-top: 400px;">
-<form action= http://cn.bing.com/search target="_blank" >
-	<input value=bing       name=q  >
+
+
+
+
+
+
+
+
+<form action=http://cn.bing.com/search target="_blank" >
+	<input placeholder=bing       	name=q  >
 </form>
 
 <form action=http://search.bilibili.com/all?keyword target="_blank" >
-	<input value=bilibili   name=keyword   >
+	<input placeholder=bilibili   	name=keyword   >
 </form> 
 
-<form method="get" action="http://www.acfun.cn/search/" target="_blank">  
-  	<input placeholder="acfun"   name=query>
+<form action="http://www.acfun.cn/search/" target="_blank">  
+  	<input placeholder=acfun   		name=query>
 </form>
