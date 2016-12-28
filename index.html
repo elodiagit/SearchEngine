@@ -1,0 +1,49 @@
+
+<!-- View -->
+  <link rel="stylesheet" href="https://cdn.static.runoob.com/libs/foundation/5.5.3/css/foundation.min.css">
+  <script src="https://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="https://cdn.static.runoob.com/libs/foundation/5.5.3/js/foundation.min.js"></script>
+  <script src="https://cdn.static.runoob.com/libs/foundation/5.5.3/js/vendor/modernizr.js"></script>
+
+<!-- seach units -->
+			<div style="margin: 150px;">
+
+<form name="se" action=" " target="_blank" >
+  
+    
+    		<div class="large-12 columns">
+      		<div class="row collapse">
+        	<div class="small-10 columns">
+<input id="here" value="" type=search placeholder="search"   name="keword" > </div>
+
+         	 <div class="small-2 columns">
+<input class="button postfix" value="Seach Units" type="submit" data-options="is_hover:true" data-dropdown="id01">
+
+          <ul id="id01" data-dropdown-content class="f-dropdown">
+    		<li><a> <input class="button warning" value="bing"      onclick="se.action='http://cn.bing.com/search';se.submit()"></li>
+
+   			<li><a> <input class="button " value="bilibili"   name=keyword  onclick="se.action='http://search.bilibili.com/all?keyword';se.submit()"></li>
+
+   			<li><a> <input class="button " value="acfun" 	name=query     onclick=""></li>
+ 			
+</form>
+<!-- 初始化 Foundation JS -->
+<script>
+$(document).ready(function() {
+    $(document).foundation();
+})
+</script></div>
+
+<!-- 3 box seach with good work-->
+<div style="margin-top: 400px;">
+<form action= http://cn.bing.com/search target="_blank" >
+	<input value=bing       name=q  >
+</form>
+
+<form action=http://search.bilibili.com/all?keyword target="_blank" >
+	<input value=bilibili   name=keyword   >
+</form> 
+
+<form method="get" action="http://www.acfun.cn/search/" target="_blank">  
+  	<input placeholder="acfun"   name=query>
+</form>
